@@ -1,0 +1,14 @@
+# Copy values into a gitignored local file or export env vars.
+# Never commit real credentials.
+
+# export DB_URL=jdbc:postgresql://localhost:5432/support_tickets
+# export DB_USERNAME=support
+# export DB_PASSWORD=your-local-password
+# export SPRING_PROFILES_ACTIVE=dev
+
+# Or application-local.yml (gitignored):
+# spring:
+#   datasource:
+#     url: jdbc:postgresql://localhost:5432/support_tickets
+#     username: support
+#     password: ${DB_PASSWORD}

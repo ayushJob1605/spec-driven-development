@@ -1,0 +1,80 @@
+---
+description: AI-assisted code and specification review standards
+---
+
+# AI Review Standards
+
+AI output must be critically reviewed.
+
+Do not assume generated code, tests, specifications, or architecture
+are correct.
+
+## Review Areas
+
+Review for:
+
+1. Correctness
+2. Specification compliance
+3. Security
+4. Data consistency
+5. Transaction boundaries
+6. Concurrency
+7. Error handling
+8. API compatibility
+9. Performance
+10. Maintainability
+11. Test quality
+12. Unnecessary complexity
+
+## AI Mistake Identification
+
+Every significant AI-generated change must be reviewed for
+meaningful mistakes or incorrect suggestions.
+
+A meaningful mistake may include:
+
+- incorrect framework behavior
+- invalid architectural assumption
+- incorrect API semantics
+- missing business rule
+- incorrect transaction design
+- incorrect database behavior
+- security vulnerability
+- incorrect test expectation
+- false-positive test
+- specification mismatch
+- unnecessary dependency
+- unnecessary complexity
+
+Do not fabricate findings.
+
+If no meaningful mistake is identified, explicitly state that
+no meaningful mistake was found during the review.
+
+## Findings
+
+For each confirmed finding provide:
+
+- severity
+- location
+- problem
+- evidence
+- relevant specification
+- impact
+- recommended fix
+
+## Review Boundary
+
+Do not modify code during a review unless the command explicitly
+requests both review and fixing.
+
+Review and implementation should normally remain separate steps.
+
+## Final Verification
+
+After fixes:
+
+1. Re-run relevant tests.
+2. Re-review the affected implementation.
+3. Check specification consistency.
+4. Check that the fix did not introduce unrelated changes.

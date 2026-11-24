@@ -1,0 +1,118 @@
+---
+description: Project-wide Specification Driven Development workflow
+alwaysApply: true
+---
+
+# Specification Driven Development
+
+This project uses Specification Driven Development.
+
+The mandatory development lifecycle is:
+
+Requirement
+→ Specification
+→ Plan / Tasks
+→ Implementation
+→ Testing
+→ Review
+→ Fix
+
+## Core Rules
+
+AI must not skip lifecycle stages.
+
+AI must not begin application implementation simply because a user
+describes a feature.
+
+AI must not interpret a high-level request such as
+"build the complete application" as permission to immediately
+generate the entire application.
+
+Before implementation:
+
+1. Understand the requirement.
+2. Identify ambiguity.
+3. Identify missing information.
+4. Identify assumptions.
+5. Create or update the relevant specification artifacts.
+6. Review the specification.
+7. Produce an implementation plan.
+8. Break the plan into small, independently reviewable tasks.
+
+Implementation must be traceable to an approved specification.
+
+Implementation should proceed one task at a time.
+
+After implementation:
+
+1. Generate or update appropriate tests.
+2. Run tests.
+3. Review the implementation against the specification.
+4. Identify specification deviations.
+5. Identify bugs and edge cases.
+6. Identify meaningful AI-generated mistakes.
+7. Fix confirmed problems.
+8. Re-run relevant tests.
+9. Re-review the result.
+
+## Specification First
+
+The specification is the source of truth for intended behavior.
+
+Do not silently change requirements during implementation.
+
+If implementation reveals that the specification is incomplete,
+contradictory, or technically infeasible:
+
+1. Stop implementation.
+2. Explain the problem.
+3. Propose the required specification change.
+4. Obtain approval before continuing.
+
+## AI Engineering Discipline
+
+AI-generated output is a proposal, not automatically correct.
+
+Actively look for:
+
+- incorrect assumptions
+- incorrect framework usage
+- incorrect business logic
+- security issues
+- data consistency issues
+- transaction problems
+- concurrency problems
+- API contract violations
+- missing validation
+- missing edge cases
+- inadequate tests
+- unnecessary dependencies
+- unnecessary complexity
+- specification/implementation divergence
+
+Do not invent problems merely to produce review findings.
+
+Only report findings supported by the repository, specification,
+tests, or established engineering constraints.
+
+## Scope Control
+
+Do not modify unrelated code.
+
+Do not introduce new dependencies without justification.
+
+Do not introduce architecture or design patterns merely because
+they are popular.
+
+Prefer the simplest design that satisfies the approved specification.
+
+## Human Approval
+
+The human developer remains responsible for approving:
+
+- requirements
+- architectural decisions
+- specification changes
+- implementation plans
+- significant dependencies
+- significant design changes

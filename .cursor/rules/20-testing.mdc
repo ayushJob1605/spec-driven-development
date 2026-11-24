@@ -1,0 +1,107 @@
+---
+description: Project testing standards
+globs: ["**/*Test.java", "**/*Tests.java"]
+---
+
+# Testing Guidelines
+
+Tests must verify behavior defined by the specification.
+
+Tests should be derived from:
+
+- requirements
+- acceptance criteria
+- business rules
+- API contracts
+- state transitions
+- documented edge cases
+
+## Test Levels
+
+Use the appropriate test level:
+
+### Unit Tests
+
+Use for:
+
+- business logic
+- calculations
+- validation logic
+- state transitions
+- deterministic transformations
+
+### Integration Tests
+
+Use for:
+
+- database interaction
+- repository behavior
+- transaction behavior
+- Spring integration
+- external integration boundaries
+
+### API Tests
+
+Verify:
+
+- HTTP status
+- request validation
+- response structure
+- error contract
+- authorization behavior where applicable
+
+### End-to-End Tests
+
+Use only for important complete user/system flows.
+
+Do not turn every unit test into an E2E test.
+
+## Test Quality
+
+A test must contain meaningful assertions.
+
+Do not create tests merely to increase coverage percentage.
+
+Tests must cover appropriate:
+
+- happy paths
+- negative cases
+- boundary conditions
+- invalid input
+- authorization failures
+- state transition failures
+- failure/retry behavior where relevant
+
+## Mocking
+
+Mock only appropriate boundaries.
+
+Do not mock the system under test.
+
+Avoid excessive mocking that causes tests to verify implementation
+details rather than behavior.
+
+## Generated Tests
+
+AI-generated tests must be reviewed.
+
+A passing test is not proof that the test is correct.
+
+Check for:
+
+- false positives
+- missing assertions
+- unrealistic test data
+- missing edge cases
+- incorrect expected values
+- tests that merely reproduce implementation behavior
+
+## Regression Tests
+
+When fixing a confirmed bug:
+
+1. Reproduce the bug with a test where practical.
+2. Fix the implementation.
+3. Verify the regression test fails before the fix when feasible.
+4. Verify it passes after the fix.
+5. Run the relevant test suite.

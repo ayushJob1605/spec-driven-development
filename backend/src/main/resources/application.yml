@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: support-ticket-backend
+  profiles:
+    default: dev
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+
+server:
+  port: 8080
+
+# Secrets must come from environment variables or application-local.yml (gitignored).

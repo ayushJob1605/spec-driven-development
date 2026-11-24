@@ -1,0 +1,326 @@
+{
+  ".cursor/commands/generate-tests.md": {
+    "mtime": 1789878888.0434933,
+    "seen": 1789885669.8561873,
+    "ast_hash": "48573866818f14008c989382713a6952",
+    "semantic_hash": ""
+  },
+  ".cursor/commands/review-code.md": {
+    "mtime": 1789878858.2445586,
+    "seen": 1789885669.8561916,
+    "ast_hash": "1e922127984f5246c03136c16a7bab0e",
+    "semantic_hash": ""
+  },
+  ".cursor/commands/review-spec.md": {
+    "mtime": 1789878824.1215062,
+    "seen": 1789885669.8561943,
+    "ast_hash": "c8a8c5cfef45c38d5016ebdd0e7bc5fa",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/documentation/SKILL.md": {
+    "mtime": 1789879189.609726,
+    "seen": 1789885669.8561964,
+    "ast_hash": "6c2926c561fe03f5471cf1b8015f9d81",
+    "semantic_hash": ""
+  },
+  "docs/prompt-history.md": {
+    "mtime": 1789879114.2404613,
+    "seen": 1789885669.8561985,
+    "ast_hash": "73ede8daca42e087db966950de3a5710",
+    "semantic_hash": ""
+  },
+  "spec/api-contract.md": {
+    "mtime": 1789891601.7413013,
+    "seen": 1789891652.674963,
+    "ast_hash": "d7ef5e6b4c6e26e66a84278e9872d156",
+    "semantic_hash": ""
+  },
+  "spec/architecture.md": {
+    "mtime": 1789891632.748349,
+    "seen": 1789891652.674968,
+    "ast_hash": "e32e92bf07ea861a8e0166f391f460b0",
+    "semantic_hash": ""
+  },
+  "spec/data-model.md": {
+    "mtime": 1789891601.5062854,
+    "seen": 1789891652.674973,
+    "ast_hash": "151f6468e5c444d10f7c6f6032e715f3",
+    "semantic_hash": ""
+  },
+  "spec/decisions.md": {
+    "mtime": 1789894085.7065475,
+    "seen": 1789894522.5636795,
+    "ast_hash": "e0a37441db2282bcba4bddcf5e4295eb",
+    "semantic_hash": ""
+  },
+  "spec/requirements.md": {
+    "mtime": 1789891562.038546,
+    "seen": 1789891652.674981,
+    "ast_hash": "cc64809017bd0026af1650f1f14696ec",
+    "semantic_hash": ""
+  },
+  "spec/state-machine.md": {
+    "mtime": 1789891579.7397938,
+    "seen": 1789891652.6749852,
+    "ast_hash": "9e88e6d8e00e85960e80bfb67330181b",
+    "semantic_hash": ""
+  },
+  "spec/test-strategy.md": {
+    "mtime": 1789891647.5552962,
+    "seen": 1789891652.674989,
+    "ast_hash": "48e4e27562a960577a1968a4c848fd2c",
+    "semantic_hash": ""
+  },
+  "spec/traceability.md": {
+    "mtime": 1789891647.8273134,
+    "seen": 1789891652.6749928,
+    "ast_hash": "7ccfd2738bcf7eaf12c53ffec00fc2e6",
+    "semantic_hash": ""
+  },
+  "spec/ui-flow.md": {
+    "mtime": 1789891622.9837136,
+    "seen": 1789891652.6749964,
+    "ast_hash": "19b88999f26fb01dfd9960f30b966058",
+    "semantic_hash": ""
+  },
+  "spec/plan.md": {
+    "mtime": 1789895071.7109766,
+    "seen": 1789895074.2102773,
+    "ast_hash": "dcb351a5b72acb4849e9494950b5c732",
+    "semantic_hash": ""
+  },
+  "backend/build.gradle": {
+    "mtime": 1789894668.7679844,
+    "seen": 1789895074.2073474,
+    "ast_hash": "b70639835c332ab15305d7a77fec08f0",
+    "semantic_hash": ""
+  },
+  "backend/gradlew": {
+    "mtime": 1789894354.1793408,
+    "seen": 1789894522.5635855,
+    "ast_hash": "d6e9e0c5123926124374524add81b38c",
+    "semantic_hash": ""
+  },
+  "backend/settings.gradle": {
+    "mtime": 1789894212.5451097,
+    "seen": 1789894522.563591,
+    "ast_hash": "751cc6d3ecf67e02b25de74a110c62dc",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/SupportTicketApplication.java": {
+    "mtime": 1789894003.7963707,
+    "seen": 1789894522.5635962,
+    "ast_hash": "ab511151b7776135f305d17088507253",
+    "semantic_hash": ""
+  },
+  "backend/src/test/java/com/supportticket/SupportTicketApplicationTests.java": {
+    "mtime": 1789894009.305164,
+    "seen": 1789894522.5636008,
+    "ast_hash": "e6b61d11ce5614ad41af2fc5158570f6",
+    "semantic_hash": ""
+  },
+  "backend/README.md": {
+    "mtime": 1789894516.3742192,
+    "seen": 1789894522.5636396,
+    "ast_hash": "b9e659f7be964b634ba5b8de9776fdec",
+    "semantic_hash": ""
+  },
+  "backend/src/main/resources/application-dev.yml": {
+    "mtime": 1789894699.4468064,
+    "seen": 1789895074.2093863,
+    "ast_hash": "0137575ece10aa535016a0085224d236",
+    "semantic_hash": ""
+  },
+  "backend/src/main/resources/application-test.yml": {
+    "mtime": 1789894694.2128353,
+    "seen": 1789895074.2093914,
+    "ast_hash": "29ce4a476c2c75e15ad454cc4b1b6401",
+    "semantic_hash": ""
+  },
+  "backend/src/main/resources/application.yml": {
+    "mtime": 1789894692.657844,
+    "seen": 1789895074.209396,
+    "ast_hash": "150c4c880a4d4381c317846b445fe322",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/ErrorCodes.java": {
+    "mtime": 1789894791.007393,
+    "seen": 1789895074.20807,
+    "ast_hash": "34cc223e5d33366c5ae479a4ed4b2970",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/ErrorResponse.java": {
+    "mtime": 1789894785.3374135,
+    "seen": 1789895074.208076,
+    "ast_hash": "4a9901713f7960577c476b8f94b7e6a7",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/FieldErrorItem.java": {
+    "mtime": 1789894790.6613941,
+    "seen": 1789895074.208081,
+    "ast_hash": "676597a9f42d3c40e446ee6081dc1ccc",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/GlobalExceptionHandler.java": {
+    "mtime": 1789894971.798002,
+    "seen": 1789895074.2080853,
+    "ast_hash": "25a214afa25f0c9df2585268026c6d80",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/TicketController.java": {
+    "mtime": 1789894993.8709862,
+    "seen": 1789895074.208089,
+    "ast_hash": "253cbccad1e9b2c13fe0e562898617b2",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/TicketMapper.java": {
+    "mtime": 1789894918.4720664,
+    "seen": 1789895074.2080934,
+    "ast_hash": "c9e6a0c20a27a9c5b20308a11507e32b",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/dto/CommentResponse.java": {
+    "mtime": 1789894906.7800858,
+    "seen": 1789895074.2080975,
+    "ast_hash": "75620c63791b1adbf752cb13cf0673af",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/dto/CreateCommentRequest.java": {
+    "mtime": 1789894915.1950717,
+    "seen": 1789895074.2081022,
+    "ast_hash": "71b94b1d25e3a0680e7843d764dac127",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/dto/CreateTicketRequest.java": {
+    "mtime": 1789894911.2050784,
+    "seen": 1789895074.2081063,
+    "ast_hash": "7742c011801f76a04bf99c0fae7122f1",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/dto/PageResponse.java": {
+    "mtime": 1789894907.5380845,
+    "seen": 1789895074.2081103,
+    "ast_hash": "afcc0cee01c0540462b0501695ef0790",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/dto/StatusChangeRequest.java": {
+    "mtime": 1789894912.593076,
+    "seen": 1789895074.2081141,
+    "ast_hash": "997dece1aa40e12789d0efd2c4357ae9",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/dto/TicketResponse.java": {
+    "mtime": 1789894906.219087,
+    "seen": 1789895074.2081182,
+    "ast_hash": "3061c454584ec90f44715b63b20c7965",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/api/dto/UpdateTicketRequest.java": {
+    "mtime": 1789894911.985077,
+    "seen": 1789895074.2081218,
+    "ast_hash": "b35dcbe55cc19b3f8b9f2b0a12aa3a46",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/config/CorsConfig.java": {
+    "mtime": 1789894805.856341,
+    "seen": 1789895074.2081254,
+    "ast_hash": "3ef6879871bce44d8f10ffc90e866d90",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/config/JacksonConfig.java": {
+    "mtime": 1789894800.6463587,
+    "seen": 1789895074.208129,
+    "ast_hash": "8f1957413bc62bf4b071e3c0c2720228",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/domain/Comment.java": {
+    "mtime": 1789894688.6198668,
+    "seen": 1789895074.2081325,
+    "ast_hash": "714d1168ffc4aeb1e0e2d446b6f15cef",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/domain/Priority.java": {
+    "mtime": 1789894675.7319422,
+    "seen": 1789895074.208136,
+    "ast_hash": "464187a6bd3f33dcee45dcd445cf8646",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/domain/Ticket.java": {
+    "mtime": 1789894687.6588724,
+    "seen": 1789895074.2081394,
+    "ast_hash": "e257872abd1a5b9ad7127075e4818561",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/domain/TicketStateMachine.java": {
+    "mtime": 1789894783.2754214,
+    "seen": 1789895074.208143,
+    "ast_hash": "4b896d87e998a489ff7b5074c66bb26f",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/domain/TicketStatus.java": {
+    "mtime": 1789894683.055899,
+    "seen": 1789895074.2081523,
+    "ast_hash": "645ff5387171dfebb37b640fabbd82e3",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/persistence/CommentRepository.java": {
+    "mtime": 1789894690.9248538,
+    "seen": 1789895074.2081559,
+    "ast_hash": "4a3d7f6b46a4063a934df47666f36f92",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/persistence/TicketRepository.java": {
+    "mtime": 1789894918.4740665,
+    "seen": 1789895074.2081592,
+    "ast_hash": "81c8b6828a5d5a9fa20557859aef78f6",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/service/InvalidTransitionException.java": {
+    "mtime": 1789894791.4683912,
+    "seen": 1789895074.2081628,
+    "ast_hash": "71f691d748c4b5d129805fdc9c495aab",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/service/ResourceNotFoundException.java": {
+    "mtime": 1789894817.140304,
+    "seen": 1789895074.2081664,
+    "ast_hash": "6bd21bd2b6cd0e3a33eccd66e5488d4e",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/service/TicketService.java": {
+    "mtime": 1789895000.123983,
+    "seen": 1789895074.2081704,
+    "ast_hash": "4a4a0a02009fff00c11a850cabb71b9a",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/supportticket/service/ValidationException.java": {
+    "mtime": 1789894797.0093713,
+    "seen": 1789895074.208174,
+    "ast_hash": "cba9d89507f906da4af19a7bd4fda986",
+    "semantic_hash": ""
+  },
+  "backend/src/test/java/com/supportticket/FlywayMigrationIntegrationTest.java": {
+    "mtime": 1789894701.407796,
+    "seen": 1789895074.2081783,
+    "ast_hash": "9287f5b17ed7db04ef0d1408a755d633",
+    "semantic_hash": ""
+  },
+  "backend/src/test/java/com/supportticket/api/MalformedRequestErrorIT.java": {
+    "mtime": 1789894817.140304,
+    "seen": 1789895074.2084403,
+    "ast_hash": "98355d399f9c812a0d12a5058a0d1121",
+    "semantic_hash": ""
+  },
+  "backend/src/test/java/com/supportticket/api/TicketApiIT.java": {
+    "mtime": 1789895002.5629816,
+    "seen": 1789895074.2084446,
+    "ast_hash": "ec5d4a68892953bdba3c40b57d94e886",
+    "semantic_hash": ""
+  },
+  "backend/src/test/java/com/supportticket/domain/TicketStateMachineTest.java": {
+    "mtime": 1789894784.7744157,
+    "seen": 1789895074.2084484,
+    "ast_hash": "da21fd63f2a831912d14b97872ef9318",
+    "semantic_hash": ""
+  }
+}

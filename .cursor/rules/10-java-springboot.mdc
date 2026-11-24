@@ -1,0 +1,131 @@
+---
+description: Java and Spring Boot engineering standards
+globs: ["**/*.java", "**/pom.xml", "**/build.gradle", "**/build.gradle.kts"]
+---
+
+# Java and Spring Boot Guidelines
+
+## General Principles
+
+Follow established Java and Spring Boot conventions.
+
+Prefer simple, maintainable designs.
+
+Do not introduce architectural patterns without a documented reason.
+
+Do not add dependencies unless they provide a clear project benefit.
+
+## Architecture
+
+Maintain clear separation between:
+
+- API/web layer
+- application/service layer
+- domain/business logic
+- persistence layer
+- infrastructure/integration concerns
+
+Do not place business logic unnecessarily inside controllers.
+
+Controllers should primarily handle:
+
+- HTTP concerns
+- request validation
+- request/response mapping
+- delegation to application services
+
+Business rules belong in the appropriate application/domain layer.
+
+Persistence concerns should not leak unnecessarily into API contracts.
+
+## Dependency Injection
+
+Prefer constructor injection.
+
+Avoid field injection.
+
+Dependencies should be explicit.
+
+## API Models
+
+Do not expose persistence entities directly as public API contracts
+unless there is a documented reason to do so.
+
+Use request/response DTOs where appropriate.
+
+## Validation
+
+Validate external input at the application boundary.
+
+Business invariants must also be enforced in the appropriate
+business/domain layer.
+
+Do not rely solely on controller validation for business rules.
+
+## Transactions
+
+Use transactions deliberately.
+
+Document or explain transaction boundaries when they affect
+business consistency.
+
+Be especially careful when database transactions interact with
+external systems.
+
+A database transaction does not automatically roll back an
+external API call.
+
+## Error Handling
+
+Use consistent application error handling.
+
+Do not expose internal stack traces or implementation details
+through public APIs.
+
+## Logging
+
+Logs must be useful for diagnosis.
+
+Do not log:
+
+- passwords
+- access tokens
+- secrets
+- sensitive personal information
+
+Use appropriate log levels.
+
+## Configuration
+
+Keep environment-specific configuration externalized.
+
+Do not hard-code:
+
+- credentials
+- API keys
+- secrets
+- environment-specific endpoints
+
+## Code Quality
+
+Prefer readable code over clever code.
+
+Avoid unnecessary abstraction.
+
+Avoid premature generalization.
+
+Remove dead code and unused dependencies.
+
+## AI-Generated Code
+
+Review generated code for:
+
+- incorrect Spring annotations
+- incorrect transaction boundaries
+- lifecycle issues
+- incorrect exception handling
+- inefficient database access
+- N+1 queries
+- concurrency issues
+- security issues
+- unnecessary abstractions

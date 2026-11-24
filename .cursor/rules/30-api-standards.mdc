@@ -1,0 +1,85 @@
+---
+description: REST API and API contract standards
+globs: ["**/controller/**/*.java", "**/api/**/*.java", "**/dto/**/*.java"]
+---
+
+# API Standards
+
+## API First
+
+Public API behavior must be defined in:
+
+spec/api-contract.md
+
+before implementation.
+
+Implementation must conform to the approved API contract.
+
+## HTTP Methods
+
+Use HTTP methods according to their intended semantics.
+
+GET:
+- retrieve resources
+
+POST:
+- create resources or perform explicitly documented actions
+
+PUT:
+- replace a resource where appropriate
+
+PATCH:
+- partially update a resource where appropriate
+
+DELETE:
+- remove a resource where appropriate
+
+## Status Codes
+
+Use HTTP status codes consistently.
+
+Do not return 200 for every operation.
+
+Document meaningful response statuses in the API contract.
+
+## Request Validation
+
+Validate:
+
+- required fields
+- field formats
+- ranges
+- lengths
+- cross-field constraints where applicable
+
+## Error Responses
+
+Use one consistent application error structure.
+
+Do not expose internal implementation details.
+
+## Pagination
+
+Paginated APIs must define:
+
+- page/offset semantics
+- page size
+- maximum page size
+- ordering
+- response metadata
+
+## Filtering and Sorting
+
+Document supported filtering and sorting parameters.
+
+Do not silently accept undocumented parameters.
+
+## Compatibility
+
+Avoid breaking existing API contracts without an explicit
+versioning or migration decision.
+
+## API Documentation
+
+Public APIs must be represented in the project's API documentation
+or OpenAPI specification where applicable.

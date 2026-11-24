@@ -1,0 +1,64 @@
+---
+description: Documentation and specification maintenance standards
+---
+
+# Documentation Guidelines
+
+Documentation must describe actual intended or implemented behavior.
+
+Do not document speculative behavior as implemented behavior.
+
+## Specification Documents
+
+The project may maintain:
+
+spec/requirements.md
+spec/architecture.md
+spec/data-model.md
+spec/api-contract.md
+spec/state-machine.md
+spec/ui-flow.md
+spec/test-strategy.md
+spec/decisions.md
+spec/traceability.md
+
+Only create artifacts that are relevant to the project.
+
+## Change Synchronization
+
+When changing behavior, determine whether the following need updates:
+
+- requirements
+- architecture
+- data model
+- API contract
+- state machine
+- UI flow
+- test strategy
+- decisions
+- traceability
+
+Do not leave specifications knowingly inconsistent with implementation.
+
+## Documentation Quality
+
+Prefer concise, precise documentation.
+
+Use diagrams when they communicate relationships or flows better
+than prose.
+
+Avoid documenting obvious implementation details that provide
+no long-term value.
+
+## Decisions
+
+Important architectural decisions should be recorded in:
+
+spec/decisions.md
+
+Include:
+
+- context
+- decision
+- alternatives considered
+- consequences
